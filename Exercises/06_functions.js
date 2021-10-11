@@ -87,3 +87,38 @@ if (isNaN(n1) || isNaN(n2)) {
 else {
     console.log('Result: ' + result);
 }
+/************************************* 
+ ITEM E
+**************************************/
+console.log('Item 6E');
+function lastAddition (number1, number2) {
+    val = validateIn (number1, number2);
+    if (val = 'NaN') {
+        return val
+    } else if (val = 'Add'){
+        a = number1 + number2
+        return a
+    }
+}
+function validateIn (number1, number2) {
+    if (isNaN(number1) || isNaN(number2)) {
+        v= 'NaN'
+        return v;
+      } 
+      else {
+          v= 'Add'
+          return v;
+      }
+}
+var n1, n2, result;
+n1 = 25;
+n2 = 'Peter';
+result1 = lastAddition (n1, n2);
+console.log('Number 1: ' + n1);
+console.log('Number 2: ' + n2); 
+if (isNaN(n1) || isNaN(n2)) {
+   window.alert('At least one parameter in wrong')
+   console.log('Result: ' + result1);
+} else {
+  console.log('Result: ' + result1);
+}
