@@ -16,3 +16,13 @@ console.log('Mes 5: ' + months[10]);
 **************************************/
 console.log('Item 3B');
 console.log('Months array after sorting: ' + months.sort());
+/************************************* 
+ ITEM C
+**************************************/
+console.log('Item 3C');
+months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre',
+ 'Noviembre', 'Diciembre'];
+months.push('Winter');
+months.unshift('Summer');
+console.log('New Months Array:');
+console.log(months);
