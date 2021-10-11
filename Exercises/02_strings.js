@@ -34,3 +34,12 @@ var wordFourFinal = (myWordFour.substring(0,1)).toUpperCase()
     + (myWordFour.substring(1,myWordFour.length)).toLowerCase();
 console.log("String variable: " + myWordFour);
 console.log('New String variable: ' + wordFourFinal);
+/************************************* 
+ ITEM E
+**************************************/
+console.log('Item 2E');
+var myWordFive = 'North Carolina and South Carolina';
+var blankSpacePos = myWordFive.indexOf(' ');
+console.log('String variable: ' + myWordFive);
+console.log('First Blank Space Position (counting first char as 0): ' + blankSpacePos);
+console.log('First Blank Space Position (counting first char as 1): ' + (blankSpacePos + 1));
