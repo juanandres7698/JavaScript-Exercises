@@ -39,3 +39,9 @@ console.log(months);
 **************************************/
 console.log('Item 3E');
 console.log('In-place reversal of the array: ' + months.reverse());
+/************************************* 
+ ITEM F
+**************************************/
+console.log('Item 3F');
+months.reverse();
+console.log('New String: ' + months.join('-'));
