@@ -43,3 +43,15 @@ var blankSpacePos = myWordFive.indexOf(' ');
 console.log('String variable: ' + myWordFive);
 console.log('First Blank Space Position (counting first char as 0): ' + blankSpacePos);
 console.log('First Blank Space Position (counting first char as 1): ' + (blankSpacePos + 1));
+/************************************* 
+ ITEM F
+**************************************/
+console.log('Item 2F');
+var myWordSix = 'eFFERVESCENT pERSONALITY';
+var finalWordSix = (myWordSix.substring(0,1)).toUpperCase()
+    +(myWordSix.substring(1,myWordSix.indexOf (' '))).toLowerCase()
+    +myWordSix.substring(myWordSix.indexOf (' '),myWordSix.indexOf (' ')+1)
+    +(myWordSix.substring(myWordSix.indexOf (' ')+1,myWordSix.indexOf (' ')+2)).toUpperCase()
+    +(myWordSix.substring(myWordSix.indexOf (' ')+2,myWordSix.length)).toLowerCase();
+console.log('Original String Variable: ' + myWordSix);
+console.log('New String: ' + finalWordSix);
