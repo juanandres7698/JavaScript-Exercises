@@ -40,3 +40,18 @@ if (isNaN(n1) || isNaN(n2)) {
 } else {
   console.log('Result: ' + result);
 }
+/************************************* 
+ ITEM C
+**************************************/
+console.log('Item 6C');
+function validateInteger (number1) {
+    if (Number.isInteger(number1)) {
+        return 'True'
+    } else {
+        return 'False'
+    }
+}
+var n1 = 45
+var validation = validateInteger(n1) 
+console.log (n1)
+console.log (validation)
