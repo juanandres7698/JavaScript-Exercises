@@ -45,3 +45,9 @@ console.log('In-place reversal of the array: ' + months.reverse());
 console.log('Item 3F');
 months.reverse();
 console.log('New String: ' + months.join('-'));
+/************************************* 
+ ITEM G
+**************************************/
+console.log('Item 3G');
+console.log('New array from May to November:');
+console.log(months.slice(months.indexOf('Mayo'),months.indexOf('Noviembre')+1));
