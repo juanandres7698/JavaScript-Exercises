@@ -11,3 +11,8 @@ var months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'A
 console.log('Months Array: ' + months);
 console.log('Mes 5: ' + months[4]);
 console.log('Mes 5: ' + months[10]);
+/************************************* 
+ ITEM B
+**************************************/
+console.log('Item 3B');
+console.log('Months array after sorting: ' + months.sort());
