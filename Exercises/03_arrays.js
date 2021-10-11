@@ -34,3 +34,8 @@ months.pop();
 months.shift();
 console.log('Returning to original array:');
 console.log(months);
+/************************************* 
+ ITEM E
+**************************************/
+console.log('Item 3E');
+console.log('In-place reversal of the array: ' + months.reverse());
