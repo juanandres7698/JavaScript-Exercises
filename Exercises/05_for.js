@@ -24,3 +24,13 @@ for (var i=0; i<=numbers.length-1; i++){
 };
 console.log('New array Numbers:');
 console.log(numbers);
+/************************************* 
+ ITEM C
+**************************************/
+console.log('Item 5C');
+var sentence = '';
+for (var i=0; i<=numbers.length-1; i++){
+    sentence = sentence + numbers[i];
+    console.log(sentence);
+};
+window.alert(sentence);
