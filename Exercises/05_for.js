@@ -13,3 +13,14 @@ for (var i=0; i<=numbers.length-1; i++){
     window.alert(numbers[i]);
     console.log(numbers[i]);
 };
+/************************************* 
+ ITEM B
+**************************************/
+console.log('Item 5B');
+for (var i=0; i<=numbers.length-1; i++){
+    numbers[i] = (numbers[i].substring(0,1)).toUpperCase()+(numbers[i].substring(1,numbers[i].length)).toLowerCase();
+    window.alert(numbers[i]+' modified');
+    console.log(numbers[i]+' modified');
+};
+console.log('New array Numbers:');
+console.log(numbers);
