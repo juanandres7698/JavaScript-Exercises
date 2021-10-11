@@ -25,3 +25,12 @@ var myWordThree = 'incomprehensibility';
 var wordThreeSub = myWordThree.substring (myWordThree.length - 3,myWordThree.length);
 console.log('Variable myWordThree: ' + myWordThree);
 console.log('Last 3 code units: ' + wordThreeSub);
+/************************************* 
+ ITEM D 
+**************************************/
+console.log('Item 2D');
+var myWordFour = 'eSTABLISHMENT';
+var wordFourFinal = (myWordFour.substring(0,1)).toUpperCase() 
+    + (myWordFour.substring(1,myWordFour.length)).toLowerCase();
+console.log("String variable: " + myWordFour);
+console.log('New String variable: ' + wordFourFinal);
