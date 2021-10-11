@@ -26,3 +26,11 @@ months.push('Winter');
 months.unshift('Summer');
 console.log('New Months Array:');
 console.log(months);
+/************************************* 
+ ITEM D
+**************************************/
+console.log('Item 3D');
+months.pop();
+months.shift();
+console.log('Returning to original array:');
+console.log(months);
