@@ -34,3 +34,12 @@ for (var i=0; i<=numbers.length-1; i++){
     console.log(sentence);
 };
 window.alert(sentence);
+/************************************* 
+ ITEM D
+**************************************/
+console.log('Item 5D');
+var repeating = new Array ();
+for (var i=0; i<=9; i++){
+    repeating.push(i);
+};
+console.log(repeating);
