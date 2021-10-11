@@ -13,3 +13,13 @@ addition = firstNumber + secondNumber;
 console.log('First number: ' + firstNumber);
 console.log('Second Number: ' + secondNumber);
 console.log('Addition: ' + addition);
+/************************************* 
+ ITEM B
+**************************************/
+console.log('Item 1B');
+var firstName = 'Juan';
+var lastName = 'Menchaca';
+var completeName = firstName + lastName;
+console.log('First Name: ' + firstName);
+console.log('Last Name: ' + lastName);
+console.log('Complete name: ' + completeName);
