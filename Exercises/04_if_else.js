@@ -19,7 +19,7 @@ if (number >=0.5){
  ITEM B
 **************************************/
 console.log('Item 4B');
-var age = Math.random()*101;
+var age = Math.round(Math.random()*101);
 //var age = 1;
 //var age = 9;
 //var age = 15;
