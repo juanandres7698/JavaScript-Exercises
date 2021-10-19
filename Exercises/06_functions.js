@@ -6,7 +6,7 @@ console.log('Sixth Exercise: Functions');
  ITEM A
 **************************************/
 console.log('Item 6A');
-function verifiedAddition (number1, number2){
+function addition (number1, number2){
     return number1 + number2;
 };
 var n1, n2, result;
@@ -22,50 +22,48 @@ console.log('Result: ' + result);
 console.log('Item 6B');
 function addition (number1,number2) {
     if (isNaN(number1) || isNaN(number2)) {
-      return 'NaN';
+        window.alert('At least one parameter in wrong');
+        console.log('At least one parameter wrong');
+        return 'NaN';
     } 
     else {
         return number1 + number2;
     }
 }
 var n1, n2, result;
-n1 = 25;
 n2 = 'Peter';
 result = addition (n1, n2);
 console.log('Number 1: ' + n1);
 console.log('Number 2: ' + n2); 
-if (isNaN(n1) || isNaN(n2)) {
-   window.alert('At least one parameter in wrong')
-   console.log('Result: ' + result);
-} else {
-  console.log('Result: ' + result);
-}
+console.log('Result: ' + result)
 /************************************* 
  ITEM C
 **************************************/
 console.log('Item 6C');
 function validateInteger (number1) {
     if (Number.isInteger(number1)) {
-        return 'True'
+        return True
     } else {
-        return 'False'
+        return False
     }
 }
-var n1 = 45
 var validation = validateInteger(n1) 
 console.log (n1)
-console.log (validation)
+console.log ("Is integer?: " + validation)
 /************************************* 
  ITEM D
 **************************************/
 console.log('Item 6D');
-function additionInteger (number1, number2) {
+function addition (number1, number2) {
     if ((isNaN(number1) || isNaN(number2)))  {
+        window.alert('At least one parameter in wrong');
+        console.log('At least one parameter wrong');
         return 'NaN';
       } 
       else if (!(Number.isInteger(number1)) || !(Number.isInteger(number2))){
-          adding = number1 + number2
-          return Math.round (adding) 
+          window.alert('At least one parameter in not integer');
+          console.log('At least one parameter is not integer');
+          return Math.round (number1+number2); 
       }
       else {
           return number1 + number2
@@ -74,24 +72,22 @@ function additionInteger (number1, number2) {
 var n1, n2, result;
 n1 = 25;
 n2 = 27.8;
-result = additionInteger (n1, n2);
+result = addition (n1, n2);
 console.log('Number 1: ' + n1);
 console.log('Number 2: ' + n2); 
-if (isNaN(n1) || isNaN(n2)) {
-   window.alert('At least one parameter in wrong')
-   console.log('Result: ' + result);
-} else if (!(Number.isInteger(n1)) || !(Number.isInteger(n2))) {
-    window.alert('Error: at least one number is not integer');
-    console.log('Result: ' + result);
-}
-else {
-    console.log('Result: ' + result);
-}
+console.log('Result: ' + result);
 /************************************* 
  ITEM E
 **************************************/
 console.log('Item 6E');
-function lastAddition (number1, number2) {
+function validation(n) {
+    if (isNaN(n)) {
+        return NaN;
+    } else {
+        return true
+    }
+}
+function addition (number1, number2) {
     val = validateIn (number1, number2);
     if (val = 'NaN') {
         return val
@@ -100,16 +96,16 @@ function lastAddition (number1, number2) {
         return a
     }
 }
-function validateIn (number1, number2) {
-    if (isNaN(number1) || isNaN(number2)) {
-        v= 'NaN'
-        return v;
+/*
+function validateIn (n) {
+    if (isNaN(n) {
+        return 'NaN';
       } 
       else {
-          v= 'Add'
-          return v;
+          return true;
       }
 }
+
 var n1, n2, result;
 n1 = 25;
 n2 = 'Peter';
@@ -122,3 +118,4 @@ if (isNaN(n1) || isNaN(n2)) {
 } else {
   console.log('Result: ' + result1);
 }
+*/
