@@ -30,7 +30,6 @@ function addition (number1,number2) {
         return number1 + number2;
     }
 }
-var n1, n2, result;
 n2 = 'Peter';
 result = addition (n1, n2);
 console.log('Number 1: ' + n1);
@@ -43,7 +42,8 @@ console.log('Item 6C');
 function validateInteger (number1) {
     if (Number.isInteger(number1)) {
         return True
-    } else {
+    } 
+    else {
         return False
     }
 }
@@ -56,8 +56,8 @@ console.log ("Is integer?: " + validation)
 console.log('Item 6D');
 function addition (number1, number2) {
     if ((isNaN(number1) || isNaN(number2)))  {
-        window.alert('At least one parameter in wrong');
-        console.log('At least one parameter wrong');
+        window.alert('At least one parameter is wrong');
+        console.log('At least one parameter is wrong');
         return 'NaN';
       } 
       else if (!(Number.isInteger(number1)) || !(Number.isInteger(number2))){
@@ -69,7 +69,6 @@ function addition (number1, number2) {
           return number1 + number2
     }
 }
-var n1, n2, result;
 n1 = 25;
 n2 = 27.8;
 result = addition (n1, n2);
@@ -88,34 +87,21 @@ function validation(n) {
     }
 }
 function addition (number1, number2) {
-    val = validateIn (number1, number2);
-    if (val = 'NaN') {
-        return val
-    } else if (val = 'Add'){
-        a = number1 + number2
-        return a
+    val1 = validation (number1);
+    val2 = validation (number2);
+    if ((val1 = NaN) || (val2 = NaN)) {
+        window.alert('Al least one parameter is wrong')
+        console.log('At least one parameter is wrong')
+        return NaN;
+    } 
+     else {
+        a = number1 + number2;
+        return a;
     }
 }
-/*
-function validateIn (n) {
-    if (isNaN(n) {
-        return 'NaN';
-      } 
-      else {
-          return true;
-      }
-}
-
-var n1, n2, result;
 n1 = 25;
 n2 = 'Peter';
-result1 = lastAddition (n1, n2);
+result = addition(n1,n2);
 console.log('Number 1: ' + n1);
 console.log('Number 2: ' + n2); 
-if (isNaN(n1) || isNaN(n2)) {
-   window.alert('At least one parameter in wrong')
-   console.log('Result: ' + result1);
-} else {
-  console.log('Result: ' + result1);
-}
-*/
+console.log('Result: ' + result);
